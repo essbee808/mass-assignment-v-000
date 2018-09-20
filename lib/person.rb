@@ -10,5 +10,5 @@ class Person
 end
 
   def initialize(attributes)
-    attributes.each{|key, value| }
+    attributes.each{|key, value| self.}
   end
