@@ -3,6 +3,8 @@ class Person
   
   def initialize(attributes)
     attributes.each{|key, value| self.send(("#{key}="), value)}
+    
+    #=> initialize method iterates over attributes hash; #send method is used to mass assign the value of each key/value pair to its associated key
   end
   
 end
